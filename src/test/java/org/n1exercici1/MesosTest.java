@@ -1,16 +1,14 @@
 package org.n1exercici1;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Mesos {
-//    static ArrayList<String> mesos= new ArrayList<>();
-
-    public void MesosTest(){
+class MesosTest {
+    @Test
+    public void MesosT(){
         ArrayList<String> arrayMesos = new ArrayList<>();
         arrayMesos.add("Gener");
         arrayMesos.add("Febrer");
