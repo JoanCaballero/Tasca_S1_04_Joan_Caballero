@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdaaa47-cc98-422c-81d5-c0603b1b8e99" name="Changes" comment="Tasca 4 n1 complert">
-      <change afterPath="$PROJECT_DIR$/src/test/java/n1exercici2/JUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/n1exercici3/ProvocaAIOOBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/n1exercici1/MesosTest.java" afterDir="false" />
+    <list default="true" id="7fdaaa47-cc98-422c-81d5-c0603b1b8e99" name="Changes" comment="Tasca 4 n1 corregit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/n1exercici2/CalculoDniTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/n1exercici2/JUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/n1exercici3/ProvocaAIOOB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/n1exercici3/ProvocaAIOOB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/n1exercici1/Mesos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/n1exercici1/Mesos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/n1exercici2/JUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/n1exercici1/MesosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/n1exercici1/MesosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/formacio/Desktop/JC/Tasca_S1_04_Joan_Caballero",
+    "last_opened_file_path": "C:/Users/formacio/Desktop/JC/Tasca_S1_06_Joan_Caballero",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.40344828"
@@ -56,28 +53,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="n1exercici2" />
       <recent name="n1exercici3" />
       <recent name="org.n1exercici1" />
-      <recent name="n1exercici2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="n1exercici3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProvocaAIOOB">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="n1exercici3.Main" />
-      <module name="Tasca_S1_04_Joan_Caballero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="n1exercici3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculoDniTest">
     <configuration name="n1exercici2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="n1exercici2.Main" />
       <module name="Tasca_S1_04_Joan_Caballero" />
@@ -91,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculoDniTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasca_S1_04_Joan_Caballero" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +84,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="n1exercici2" />
-      <option name="MAIN_CLASS_NAME" value="n1exercici2.JUnit" />
+      <option name="MAIN_CLASS_NAME" value="n1exercici2.CalculoDniTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mesos.MesosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MesosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tasca_S1_04_Joan_Caballero" />
       <extension name="coverage">
         <pattern>
@@ -115,9 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.n1exercici1" />
-      <option name="MAIN_CLASS_NAME" value="org.n1exercici1.Mesos" />
-      <option name="METHOD_NAME" value="MesosTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.n1exercici1.MesosTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,12 +120,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tasca_S1_04_Joan_Caballero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="n1exercici2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="n1exercici2" />
+      <option name="MAIN_CLASS_NAME" value="n1exercici2.junit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculoDniTest" />
+        <item itemvalue="JUnit.junit" />
+        <item itemvalue="JUnit.MesosTest" />
         <item itemvalue="JUnit.ProvocaAIOOB" />
         <item itemvalue="Application.n1exercici2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Mesos.MesosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700740617064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tasca 4 n1 complert test carpeta test">
+      <created>1701072948036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701072948037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tasca 4 n1exercici 1 en principi completat, initial commit n1exercici2" />
     <MESSAGE value="Tasca 4 n1 complert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasca 4 n1 complert" />
+    <MESSAGE value="Tasca 4 n1 complert test carpeta test" />
+    <MESSAGE value="Tasca 4 n1 corregit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasca 4 n1 corregit" />
   </component>
 </project>
